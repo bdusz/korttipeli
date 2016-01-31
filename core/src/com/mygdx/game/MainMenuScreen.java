@@ -11,9 +11,10 @@ import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 public class MainMenuScreen implements Screen {
         final Korttipeli game;
 	OrthographicCamera camera;
-	public static Texture backgroundTexture = new Texture("C:/Users/Jimi/Desktop/peli2/core/pics/Mainmenu.png");
-   public static Sprite backgroundSprite = new Sprite(backgroundTexture);
-   // private SpriteBatch spriteBatch;
+	
+	public static Texture backgroundTexture = new Texture("../core/pics/Mainmenu.png");
+    public static Sprite backgroundSprite = new Sprite(backgroundTexture);
+
 
 	public MainMenuScreen(final Korttipeli gam) {
 		game = gam;
